@@ -54,9 +54,9 @@ function PrintResult() {
       strs.push(strToPrint);
     }
   });
-  print(matches, " pairs found");
+  console.log(matches, " pairs found");
   for (let i = 1; i < strs.length; i++) {
-    print(strs[i]);
+    console.log(strs[i]);
   }
 }
 
